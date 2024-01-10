@@ -30,7 +30,7 @@ const imageUrls = [
     'rngimagegenerator/luffy.png',
     'rngimagegenerator/cirno.png',
     'rngimagegenerator/marisa.png',
-    'rngimagegenerator/touhou-fumo.png',
+    'rngimagegenerator/touhou-fumo.gif',
     'rngimagegenerator/mlala.png',
     'rngimagegenerator/fumo.png',
     'rngimagegenerator/whack.png',
@@ -68,6 +68,15 @@ const imageUrls = [
     'rngimagegenerator/chicken11.png',
     'rngimagegenerator/chicken12.png',
     'rngimagegenerator/copfilian.png',
+
+    'rngimagegenerator/lucsuggested1.jpg',
+    'rngimagegenerator/lucsuggested2.jpg',
+    'rngimagegenerator/lucsuggested3.jpg',
+    'rngimagegenerator/lucsuggested4.jpg',
+    'rngimagegenerator/lucsuggested5.png',
+    'rngimagegenerator/lucsuggested6.jpg',
+    'rngimagegenerator/lucsuggested7.png',
+
   ];
 
   // dont foget to add .png at end bro
