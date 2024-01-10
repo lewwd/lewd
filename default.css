@@ -48,17 +48,18 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
 }
 
 
 /**/
 
 .container {
-    max-width: 950
+    max-width: 1200
 px;
     margin: 0 auto;
     
-    width: 90%;
+    width: 85%;
 
     padding: 10px 0;
   }
@@ -243,19 +244,36 @@ h2 {
     position: fixed;
     bottom: -10px;
     right: -25px;
-/*    border: 1px solid #ccc;
-    border-radius: 5px; */
-    padding: 5px;
-    max-width: 300px; /* Adjust max width as needed */
-    max-height: 300px; /* Adjust max height as needed */
-    overflow: hidden; /* Hide overflowing content */
+/*    border: 1px solid #ccc;*/
+ /*   border-radius: 5px; */
+    padding: 1%;
+    max-width: 30%; 
+    max-height: 100%; 
+    overflow: hidden; /* hide overflowing content */
   }
   
   .random-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Maintain aspect ratio while covering container */
+    object-fit: cover; /* maintain aspect ratio while covering container */
   }
+  
+
+
+/* config for smaller screens */
+
+  @media screen and (max-width: 768px) {
+    .random-image {
+        /* Adjust the values for smaller screens */
+        bottom: -5%;
+        right: -5%;
+        padding: 2%;
+        max-width: 50%;
+        max-height: 50%;
+    }
+}
+
+
   
 
   /**/
