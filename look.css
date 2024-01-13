@@ -107,6 +107,17 @@ header {
   } 
 }
 
+@keyframes justflips {
+  0%, 100% {
+    transform: rotateX(0deg);
+    opacity: 1;
+    -webkit-transition: all 1s;
+  }
+  10% {
+    transform: rotateX(360deg);
+    opacity: 1;
+  }
+}
 
 
 nav {
@@ -122,16 +133,12 @@ nav a {
   padding: 0.1em;
   border-bottom: none;
   color: #ffffff;
-  transition: all 3s;
-  -webkit-transition: all 3s;
 }
 
 
 nav a:hover, nav a:focus, nav a:active {
-  color: #bebebe;
-  transform: rotateX(360deg);
-  transition: all 10000s;
-  -webkit-transition: all 1000s;
+  animation: justflips 10s ease-in-out infinite;
+  animation-play-state: running;
 }
 
 
@@ -145,7 +152,7 @@ nav a:hover, nav a:focus, nav a:active {
   animation: flip-card 3s ease-in-out infinite;
   animation-play-state: running;
   transform: translate3d(0, 0, 0);
-} */
+}
 
 
 
