@@ -84,9 +84,27 @@ const imageUrls = [
   // get a random index to select a random image from the array
   const randomIndex = Math.floor(Math.random() * imageUrls.length);
   
-  // get the img element by its ID
+  // get the img element by its id
   const imgElement = document.getElementById('randomImg');
   
   // set the src attribute of the img element to the randomly selected image URL
   imgElement.src = imageUrls[randomIndex];
   
+
+
+
+
+
+
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    // Triggering the animation on page load
+    var iconElement = document.querySelector('.icon');
+    if (iconElement) {
+      iconElement.style.animation = 'flip-card 3s ease-in-out infinite';
+      iconElement.style.animationPlayState = 'running';
+    }
+  });
+
+
+
