@@ -88,7 +88,7 @@ const imageUrls = [
 
 
 
-    'rngimagegenerator/2/a.png',
+//    'rngimagegenerator/2/a.png',
   ];
 
   // dont foget to add .png at end bro
